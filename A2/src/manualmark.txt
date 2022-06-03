@@ -1,0 +1,19 @@
+8.b) 
+The minimum amount of available buffer space is 29200 while the maximum receiver buffer 
+is  64240, so according to the trace the sender is never throttled due to lacking of receiver 
+buffer space. 
+
+9. 
+Yes, by searching tcp.analysis.retransmissionon the filter, the transmissions were indicated in a red font.
+
+13.
+The more fragment bit = 0, so the data is not fragmented. 
+
+14. There are 20 bytes in the IP header.  
+The total length is 56 bytes, so payload is the difference of 56 and 20, which is 36. 
+
+
+
+
+
+
